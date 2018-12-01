@@ -47,7 +47,7 @@ Scripts and flutter installation document
     $flutter analyze
 ```
 
-## Connect android over wifi for debugging.
+## Connect android over wifi for debugging
 
 - connect your mobile device to your computer.
 
