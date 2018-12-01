@@ -47,6 +47,30 @@ Scripts and flutter installation document
     $flutter analyze
 ```
 
+## Connect andoid over wifi for debugging.
+
+- connect your mobile device to your computer.
+
+- make sure `usb` debugging is on 
+
+- Get devices connected to your computer usng `adb`
+    ```bash
+        $adb devices
+    ```
+- It should show your devices in connected device list
+
+- Change the device connection protocol from `usb` to `tcp`
+
+    ```bash
+        $adb tcpip 5555
+    ```
+- Connect to abdroid debug bridge(`adb`) using phone's `IP` address
+
+    ```bash
+        $adb connect IPADDRESS
+    ```
+- USeful link: <https://stackoverflow.com/questions/2604727/how-can-i-connect-to-android-with-adb-over-tcp>
+
 ## Troubleshoot
 
 ### Issues
