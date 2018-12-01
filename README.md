@@ -6,6 +6,20 @@ Scripts and flutter installation document
 
 - <https://flutter.io/docs/get-started/test-drive?tab=vscode>
 
+## install
+
+- run
+
+```bash
+    chmod +x install.sh
+    ./install.sh
+```
+
+- setup up android or ios environment seperately based on your requirement
+
+    follow link <https://flutter.io/docs/get-started/install/> for more information
+
+
 ## some useful flutter commands  
 
 - Run flutter app in debug mode. Make sure to connect your mobile with usb debugging mode enabled and connected to machine
