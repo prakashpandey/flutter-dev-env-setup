@@ -1,4 +1,4 @@
-# flutter-dev-env-setup
+# Flutter-dev-env-setup
 
 Scripts and flutter installation document
 
@@ -6,49 +6,50 @@ Scripts and flutter installation document
 
 - <https://flutter.io/docs/get-started/test-drive?tab=vscode>
 
-## install
+## Install
 
 - run
 
 ```bash
-    chmod +x install.sh
-    ./install.sh
+    $git clone https://github.com/prakashpandey/flutter-dev-env-setup
+    $cd flutter-dev-env-setup
+    $chmod +x install.sh
+    $./install.sh
 ```
 
 - setup up android or ios environment seperately based on your requirement
 
     follow link <https://flutter.io/docs/get-started/install/> for more information
 
-
-## some useful flutter commands  
+## Some useful flutter commands  
 
 - Run flutter app in debug mode. Make sure to connect your mobile with usb debugging mode enabled and connected to machine
 
 ```bash
-    flutter run -v
+    $flutter run -v
 ```
 
 - Upgrade flutter
 
 ```bash
-    flutter upgrade
+    $flutter upgrade
 ```
 
 - Check if you have any flutter environment issues
 
 ```bash
-    flutter doctor -v
+    $flutter doctor -v
 ```
 
 - Analyze if your flutter app have any problems
 
 ```bash
-    flutter analyze
+    $flutter analyze
 ```
 
-## troubleshoot
+## Troubleshoot
 
-### issues
+### Issues
 
 - If you get error that android license is unknown, try doing following
 
